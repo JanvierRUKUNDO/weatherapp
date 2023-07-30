@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00008B; /* Dark blue background color */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    font-size: 16px;
+    background-color: #FFFFFF; /* White button background color */
+    color: #00008B; /* Dark blue text color */
+    border: 1px solid #FFFFFF; /* White button border */
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #F0F8FF; /* Light blue background color on hover */
+    color: #00008B; /* Dark blue text color on hover */
+  }
+  
+  #weatherInfo {
+    text-align: center;
+    color:#FFFFFF;
+  }
+  
+  img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  h1 {
+    text-align: center;
+    color:#FFFFFF;
+  }
